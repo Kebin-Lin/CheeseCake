@@ -10,3 +10,9 @@ We decided to write our code with runtime that the API doesn't have. The API has
 - peekMin() returns the value at the front of the queue without removing it.
 - removeMin() returns the value at the front of the queue and removes it.
 - add(String x) inserts a value into the queue, basing its position on its priority.
+
+## Heap To Do
+- peekMin()
+- minChildPos(int pos)
+- removeMin()
+- add()
