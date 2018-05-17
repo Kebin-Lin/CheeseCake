@@ -74,7 +74,7 @@ public class ALHeapMin
     _heap.add(addVal);
     while (_heap.get(currPos) < _heap.get( (currPos - 1)/2 )) { //While child < parent
       swap(currPos,(currPos - 1)/2); //Swap child and parent
-      currPos /= 2;
+      currPos = (currPos - 1) / 2;
     }
   }//O(logn)
 
@@ -143,7 +143,7 @@ public class ALHeapMin
   //main method for testing
   public static void main( String[] args )
   {
-    ALHeap pile = new ALHeap();
+    ALHeapMin pile = new ALHeapMin();
 
     pile.add(2);
     System.out.println(pile);
