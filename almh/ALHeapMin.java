@@ -138,7 +138,7 @@ public class ALHeapMin
   }
   //********************************************
 
-
+  public int size() {return _heap.size();}
 
   //main method for testing
   public static void main( String[] args )
